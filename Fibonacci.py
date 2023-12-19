@@ -10,7 +10,7 @@ else:
    print("Fibonacci sequence:")
    while count < nterms:
        print(n1)
-       nth = n1 + n3
+       nth = n1 + n2
        n1 = n2
-       n3 = nth
+       n2 = nth
        count += 1
